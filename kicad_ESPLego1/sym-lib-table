@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name lego-rescue)(type Legacy)(uri ${KIPRJMOD}/lego-rescue.lib)(options "")(descr ""))
+)

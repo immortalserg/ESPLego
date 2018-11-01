@@ -1,0 +1,959 @@
+EESchema Schematic File Version 4
+LIBS:lego-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP8266:ESP-12 U1
+U 1 1 5B6D3DCA
+P -200 2150
+F 0 "U1" H -200 3228 50  0000 C CNN
+F 1 "ESP-12" H -200 3137 50  0000 C CNN
+F 2 "imm:ESP-12" H -200 2150 50  0001 C CNN
+F 3 "http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/" H -200 2150 50  0001 C CNN
+	1    -200 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5B6D5A19
+P 3250 3250
+F 0 "D4" V 3204 3329 50  0000 L CNN
+F 1 "11eqs06" V 3295 3329 50  0000 L CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 3250 3250 50  0001 C CNN
+F 3 "~" H 3250 3250 50  0001 C CNN
+	1    3250 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5B6D5AA9
+P 3750 3250
+F 0 "D6" V 3704 3329 50  0000 L CNN
+F 1 "11eqs06" V 3795 3329 50  0000 L CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 3750 3250 50  0001 C CNN
+F 3 "~" H 3750 3250 50  0001 C CNN
+	1    3750 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5B6D5AD3
+P 4250 3250
+F 0 "D8" V 4204 3329 50  0000 L CNN
+F 1 "11eqs06" V 4295 3329 50  0000 L CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 4250 3250 50  0001 C CNN
+F 3 "~" H 4250 3250 50  0001 C CNN
+	1    4250 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5B6D5AF9
+P 4800 3250
+F 0 "D10" V 4754 3329 50  0000 L CNN
+F 1 "11eqs06" V 4845 3329 50  0000 L CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 4800 3250 50  0001 C CNN
+F 3 "~" H 4800 3250 50  0001 C CNN
+	1    4800 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5B6D5BA0
+P 3250 1900
+F 0 "D3" V 3204 1979 50  0000 L CNN
+F 1 "11eqs06" V 3295 1979 50  0000 L CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 3250 1900 50  0001 C CNN
+F 3 "~" H 3250 1900 50  0001 C CNN
+	1    3250 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5B6D5C0E
+P 3750 1900
+F 0 "D5" V 3704 1979 50  0000 L CNN
+F 1 "11eqs06" V 3795 1979 50  0000 L CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 3750 1900 50  0001 C CNN
+F 3 "~" H 3750 1900 50  0001 C CNN
+	1    3750 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5B6D5C38
+P 4250 1900
+F 0 "D7" V 4204 1979 50  0000 L CNN
+F 1 "11eqs06" V 4295 1979 50  0000 L CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 4250 1900 50  0001 C CNN
+F 3 "~" H 4250 1900 50  0001 C CNN
+	1    4250 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5B6D5C68
+P 4800 1900
+F 0 "D9" V 4754 1979 50  0000 L CNN
+F 1 "11eqs06" V 4845 1979 50  0000 L CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 4800 1900 50  0001 C CNN
+F 3 "~" H 4800 1900 50  0001 C CNN
+	1    4800 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J5
+U 1 1 5B6D5E69
+P 5400 2450
+F 0 "J5" H 5373 2423 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 5373 2332 50  0000 R CNN
+F 2 "imm:pin4_2,54" H 5400 2450 50  0001 C CNN
+F 3 "~" H 5400 2450 50  0001 C CNN
+	1    5400 2450
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3250 2650
+Wire Wire Line
+	3250 2650 5200 2650
+Wire Wire Line
+	3250 2650 3250 2050
+Connection ~ 3750 2550
+Wire Wire Line
+	3750 2550 5200 2550
+Wire Wire Line
+	3750 2550 3750 2050
+Connection ~ 4250 2450
+Wire Wire Line
+	4250 2450 5200 2450
+Wire Wire Line
+	4250 2450 4250 2050
+Connection ~ 4800 2350
+Wire Wire Line
+	4800 2350 5200 2350
+Wire Wire Line
+	4800 2350 4800 2050
+Wire Wire Line
+	4250 3400 4800 3400
+Wire Wire Line
+	4250 1750 4800 1750
+$Comp
+L Device:R R2
+U 1 1 5B6D71CF
+P 1050 2050
+F 0 "R2" V 843 2050 50  0000 C CNN
+F 1 "10 k" V 934 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 980 2050 50  0001 C CNN
+F 3 "~" H 1050 2050 50  0001 C CNN
+	1    1050 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	700  2150 1550 2150
+Wire Wire Line
+	700  2250 1550 2250
+Wire Wire Line
+	-1100 2150 -1250 2150
+Wire Wire Line
+	-1250 2150 -1250 2850
+Wire Wire Line
+	-1100 2050 -1350 2050
+Wire Wire Line
+	-1350 2050 -1350 2950
+Wire Wire Line
+	900  2050 700  2050
+Wire Wire Line
+	-200 1250 1200 1250
+Wire Wire Line
+	1200 1250 1200 2050
+Wire Wire Line
+	-200 3050 -200 3150
+$Comp
+L Device:R R1
+U 1 1 5B6DFBD3
+P -1100 2600
+F 0 "R1" H -1170 2554 50  0000 R CNN
+F 1 "10 k" H -1170 2645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -1170 2600 50  0001 C CNN
+F 3 "~" H -1100 2600 50  0001 C CNN
+	1    -1100 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-1100 2750 -1100 3050
+Wire Wire Line
+	-1100 3050 -200 3050
+Connection ~ -200 3050
+Wire Wire Line
+	-1950 2150 -1550 2150
+Wire Wire Line
+	-1550 2150 -1550 3250
+Wire Wire Line
+	-1550 3250 -200 3250
+Connection ~ -200 3250
+Wire Wire Line
+	-200 3250 -200 3400
+Wire Wire Line
+	-1950 2050 -1550 2050
+Wire Wire Line
+	-1550 2050 -1550 1250
+Wire Wire Line
+	-1550 1250 -200 1250
+Connection ~ -200 1250
+$Comp
+L power:GND #PWR01
+U 1 1 5B6DB588
+P -200 3400
+F 0 "#PWR01" H -200 3150 50  0001 C CNN
+F 1 "GND" H -195 3227 50  0000 C CNN
+F 2 "" H -200 3400 50  0001 C CNN
+F 3 "" H -200 3400 50  0001 C CNN
+	1    -200 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 1750
+Wire Wire Line
+	3750 1750 4250 1750
+Connection ~ 3750 1750
+Wire Wire Line
+	3250 1750 3750 1750
+Connection ~ 4250 3400
+Wire Wire Line
+	3750 3400 4250 3400
+Connection ~ 3750 3400
+Wire Wire Line
+	3250 3400 3550 3400
+NoConn ~ 700  1950
+Wire Wire Line
+	2550 1250 2550 1750
+Connection ~ 2550 1250
+$Comp
+L power:GND #PWR08
+U 1 1 5B6F9817
+P 2850 1550
+F 0 "#PWR08" H 2850 1300 50  0001 C CNN
+F 1 "GND" H 2855 1377 50  0000 C CNN
+F 2 "" H 2850 1550 50  0001 C CNN
+F 3 "" H 2850 1550 50  0001 C CNN
+	1    2850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 5B701995
+P 3300 1250
+F 0 "C2" V 3555 1250 50  0000 C CNN
+F 1 "47 µF" V 3464 1250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3338 1100 50  0001 C CNN
+F 3 "~" H 3300 1250 50  0001 C CNN
+	1    3300 1250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3150 1250
+Wire Wire Line
+	3150 1250 3150 1700
+Wire Wire Line
+	3450 1550 2850 1550
+Wire Wire Line
+	3450 1250 3450 1550
+$Comp
+L power:+6V #PWR07
+U 1 1 5B7220A3
+P 2400 1250
+F 0 "#PWR07" H 2400 1100 50  0001 C CNN
+F 1 "+6V" H 2415 1423 50  0000 C CNN
+F 2 "" H 2400 1250 50  0001 C CNN
+F 3 "" H 2400 1250 50  0001 C CNN
+	1    2400 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1250 2550 1250
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5B7227C0
+P 1200 6900
+F 0 "#FLG01" H 1200 6975 50  0001 C CNN
+F 1 "PWR_FLAG" H 1200 7074 50  0000 C CNN
+F 2 "" H 1200 6900 50  0001 C CNN
+F 3 "~" H 1200 6900 50  0001 C CNN
+	1    1200 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5B724EFA
+P 1700 6900
+F 0 "#FLG02" H 1700 6975 50  0001 C CNN
+F 1 "PWR_FLAG" H 1700 7074 50  0000 C CNN
+F 2 "" H 1700 6900 50  0001 C CNN
+F 3 "~" H 1700 6900 50  0001 C CNN
+	1    1700 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5B724F29
+P 1200 6900
+F 0 "#PWR02" H 1200 6650 50  0001 C CNN
+F 1 "GND" H 1205 6727 50  0000 C CNN
+F 2 "" H 1200 6900 50  0001 C CNN
+F 3 "" H 1200 6900 50  0001 C CNN
+	1    1200 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+6V #PWR03
+U 1 1 5B724F58
+P 1700 6900
+F 0 "#PWR03" H 1700 6750 50  0001 C CNN
+F 1 "+6V" H 1715 7073 50  0000 C CNN
+F 2 "" H 1700 6900 50  0001 C CNN
+F 3 "" H 1700 6900 50  0001 C CNN
+	1    1700 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	700  2350 1550 2350
+Wire Wire Line
+	700  2450 1550 2450
+Wire Wire Line
+	-1350 2950 1250 2950
+$Comp
+L crf_1:L298P IC1
+U 1 1 5B76AD42
+P 2350 2750
+F 0 "IC1" H 2350 3625 50  0000 C CNN
+F 1 "L298P" H 2350 3534 50  0000 C CNN
+F 2 "SparkFun-PowerIC:POWERSO20" H 2300 3500 50  0001 C CNN
+F 3 "" H 2350 2750 60  0000 C CNN
+	1    2350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1250 2850 1150 2850
+Wire Wire Line
+	1250 2950 1250 2700
+Wire Wire Line
+	1250 2700 1550 2700
+Wire Wire Line
+	1150 2850 1150 2600
+Wire Wire Line
+	1150 2600 1550 2600
+Wire Wire Line
+	3150 2350 4800 2350
+Wire Wire Line
+	3150 2450 4250 2450
+Wire Wire Line
+	3150 2550 3750 2550
+Wire Wire Line
+	3150 2650 3250 2650
+Wire Wire Line
+	3250 2650 3250 3100
+Wire Wire Line
+	3750 2550 3750 3100
+Wire Wire Line
+	4250 2450 4250 3100
+Wire Wire Line
+	4800 2350 4800 3100
+Connection ~ 3250 1750
+NoConn ~ 3150 3300
+NoConn ~ 3150 3400
+Wire Wire Line
+	3250 3400 3250 3500
+Wire Wire Line
+	3250 3500 -50  3500
+Wire Wire Line
+	-50  3500 -50  3250
+Wire Wire Line
+	-50  3250 -200 3250
+Connection ~ 3250 3400
+Wire Wire Line
+	1550 2850 1550 2950
+Connection ~ 1550 2950
+Wire Wire Line
+	1550 2950 1550 3050
+Connection ~ 1550 3050
+Wire Wire Line
+	1550 3050 1550 3150
+Wire Wire Line
+	1550 3150 -200 3150
+Connection ~ 1550 3150
+Connection ~ -200 3150
+Wire Wire Line
+	-200 3150 -200 3250
+Wire Wire Line
+	1350 1700 1350 3400
+Wire Wire Line
+	1350 3400 1550 3400
+Wire Wire Line
+	1350 1700 3150 1700
+Wire Wire Line
+	1450 1750 1450 3300
+Wire Wire Line
+	1450 3300 1550 3300
+Wire Wire Line
+	1450 1750 2550 1750
+Connection ~ 2550 1750
+Wire Wire Line
+	2550 1750 3250 1750
+Wire Wire Line
+	3150 2100 3150 2200
+Wire Wire Line
+	3150 2200 3550 2200
+Wire Wire Line
+	3550 2200 3550 3400
+Connection ~ 3150 2200
+Connection ~ 3550 3400
+Wire Wire Line
+	3550 3400 3750 3400
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 5B7C9D38
+P 2500 6900
+F 0 "J3" H 2473 6830 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 2473 6921 50  0000 R CNN
+F 2 "imm:con1_2,54" H 2500 6900 50  0001 C CNN
+F 3 "~" H 2500 6900 50  0001 C CNN
+	1    2500 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J4
+U 1 1 5B7D6D1C
+P 8350 5050
+F 0 "J4" H 8323 4980 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 8323 5071 50  0000 R CNN
+F 2 "imm:con1_2,54" H 8350 5050 50  0001 C CNN
+F 3 "~" H 8350 5050 50  0001 C CNN
+	1    8350 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+6V #PWR06
+U 1 1 5B7D6D66
+P 2300 7200
+F 0 "#PWR06" H 2300 7050 50  0001 C CNN
+F 1 "+6V" H 2315 7373 50  0000 C CNN
+F 2 "" H 2300 7200 50  0001 C CNN
+F 3 "" H 2300 7200 50  0001 C CNN
+	1    2300 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5B7D6D99
+P 2300 6900
+F 0 "#PWR05" H 2300 6650 50  0001 C CNN
+F 1 "GND" H 2305 6727 50  0000 C CNN
+F 2 "" H 2300 6900 50  0001 C CNN
+F 3 "" H 2300 6900 50  0001 C CNN
+	1    2300 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego-rescue:HT75xx-imm_lib D2
+U 1 1 5B775AED
+P 2900 1300
+F 0 "D2" H 2900 1565 50  0000 C CNN
+F 1 "HT7550" H 2900 1474 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2900 1600 50  0001 C CNN
+F 3 "" H 2900 1600 50  0001 C CNN
+	1    2900 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1250 2550 1250
+Wire Wire Line
+	2850 1550 2650 1550
+Wire Wire Line
+	2650 1550 2650 1350
+Connection ~ 2850 1550
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5B7883BF
+P -2150 1950
+F 0 "J1" H -2177 1923 50  0000 R CNN
+F 1 "Conn_01x04_Male" V -2177 1832 50  0000 R CNN
+F 2 "imm:pin4_2,54" H -2150 1950 50  0001 C CNN
+F 3 "~" H -2150 1950 50  0001 C CNN
+	1    -2150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5B95C9AD
+P 8300 5050
+F 0 "#PWR09" H 8300 4800 50  0001 C CNN
+F 1 "GND" H 8305 4877 50  0000 C CNN
+F 2 "" H 8300 5050 50  0001 C CNN
+F 3 "" H 8300 5050 50  0001 C CNN
+	1    8300 5050
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 5700 2    50   Input ~ 0
+3,3V
+$Comp
+L Connector:USB_B_Micro J6
+U 1 1 5B9E33AC
+P 7100 4450
+F 0 "J6" H 7155 4917 50  0000 C CNN
+F 1 "USB_B_Micro" H 7155 4826 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105133-0001" H 7250 4400 50  0001 C CNN
+F 3 "~" H 7250 4400 50  0001 C CNN
+	1    7100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Interface-Controllers:CP2102-GMR_NRND U5
+U 1 1 5B9E3955
+P 10400 4350
+F 0 "U5" H 10400 5428 50  0000 C CNN
+F 1 "CP2102N-A01-GQFN24" H 10400 5337 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 10850 3550 50  0001 L CNN
+F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 10450 3300 50  0001 C CNN
+	1    10400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego-rescue:TP4056-imm_lib-MySensors328p-rescue-usb_charger-rescue-esp8266_leds-rescue-usb_charger_dc-dc-rescue U3
+U 1 1 5B9CFA81
+P 8400 4250
+F 0 "U3" H 8400 4425 50  0000 C CNN
+F 1 "TP4056" H 8400 4334 50  0000 C CNN
+F 2 "smt-sop:PPSOP8" H 8400 4450 50  0001 C CNN
+F 3 "" H 8400 4450 50  0001 C CNN
+	1    8400 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4500 7600 4500
+Wire Wire Line
+	7600 4500 7600 4850
+Wire Wire Line
+	7600 4850 7100 4850
+Connection ~ 7100 4850
+Wire Wire Line
+	7100 4850 7000 4850
+Wire Wire Line
+	8000 4600 7950 4600
+Wire Wire Line
+	7650 4600 7650 4250
+Wire Wire Line
+	7650 4250 7450 4250
+Wire Wire Line
+	8800 4300 8850 4300
+Wire Wire Line
+	8850 4300 8850 4700
+Wire Wire Line
+	8850 4700 8700 4700
+Wire Wire Line
+	7950 4700 7950 4600
+Connection ~ 7950 4600
+Wire Wire Line
+	7950 4600 7650 4600
+$Comp
+L lego-rescue:R-imm_lib-MySensors328p-rescue-usb_charger-rescue-esp8266_leds-rescue-usb_charger_dc-dc-rescue R3
+U 1 1 5B9D79A0
+P 7850 4900
+F 0 "R3" H 7920 4946 50  0000 L CNN
+F 1 "Rprog" H 7920 4855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7750 4950 50  0001 C CNN
+F 3 "" H 7850 5000 50  0001 C CNN
+	1    7850 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4400 7850 4400
+Wire Wire Line
+	7850 4400 7850 4750
+Wire Wire Line
+	7850 5050 7100 5050
+Wire Wire Line
+	7100 5050 7100 4850
+Wire Wire Line
+	8300 5050 8150 5050
+Connection ~ 7850 5050
+Wire Wire Line
+	8800 5050 8550 5050
+Wire Wire Line
+	8800 4600 8800 5050
+$Comp
+L lego-rescue:R-imm_lib-MySensors328p-rescue-usb_charger-rescue-esp8266_leds-rescue-usb_charger_dc-dc-rescue R4
+U 1 1 5B9EA040
+P 8900 4650
+F 0 "R4" H 8970 4696 50  0000 L CNN
+F 1 "1k" H 8970 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8800 4700 50  0001 C CNN
+F 3 "" H 8900 4750 50  0001 C CNN
+	1    8900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego-rescue:R-imm_lib-MySensors328p-rescue-usb_charger-rescue-esp8266_leds-rescue-usb_charger_dc-dc-rescue R7
+U 1 1 5B9EA0BA
+P 9250 4650
+F 0 "R7" H 9320 4696 50  0000 L CNN
+F 1 "1k" H 9320 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9150 4700 50  0001 C CNN
+F 3 "" H 9250 4750 50  0001 C CNN
+	1    9250 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 4500 8900 4500
+Wire Wire Line
+	8800 4400 9250 4400
+Wire Wire Line
+	9250 4400 9250 4500
+Wire Wire Line
+	8800 5050 8800 5450
+Connection ~ 8800 5050
+Wire Wire Line
+	7400 4550 7550 4550
+Wire Wire Line
+	7400 4450 7500 4450
+Wire Wire Line
+	8150 5350 8150 5050
+Connection ~ 8150 5050
+Wire Wire Line
+	8150 5050 7850 5050
+Wire Wire Line
+	7450 3550 7450 4250
+Connection ~ 7450 4250
+Wire Wire Line
+	7450 4250 7400 4250
+Text GLabel 10100 4350 0    50   Input ~ 0
+RXD
+Text GLabel 10900 4250 2    50   Input ~ 0
+TXD
+$Comp
+L lego-rescue:C-imm_lib-MySensors328p-rescue-usb_charger-rescue-esp8266_leds-rescue-usb_charger_dc-dc-rescue C3
+U 1 1 5BA2D205
+P 7350 6250
+F 0 "C3" H 7465 6296 50  0000 L CNN
+F 1 "TAJA106K016RNJ" H 7465 6205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" V 7200 6200 50  0001 C CNN
+F 3 "" H 7350 6250 50  0001 C CNN
+	1    7350 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego-rescue:C-imm_lib-MySensors328p-rescue-usb_charger-rescue-esp8266_leds-rescue-usb_charger_dc-dc-rescue C5
+U 1 1 5BA2D3D7
+P 8300 5850
+F 0 "C5" H 8415 5896 50  0000 L CNN
+F 1 "TAJA106K016RNJ" H 8415 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" V 8150 5800 50  0001 C CNN
+F 3 "" H 8300 5850 50  0001 C CNN
+	1    8300 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 6000 7100 5050
+Connection ~ 7100 5050
+$Comp
+L HT7533-1:HT7533-1 U2
+U 1 1 5BA371D2
+P 7750 5800
+F 0 "U2" H 7750 6170 50  0000 C CNN
+F 1 "HT7533-1" H 7750 6079 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 7750 5800 50  0001 L BNN
+F 3 "Smd c.Int. Ht-7533-1 _Sot-89_Tape&Reel h Oltek." H 7750 5800 50  0001 L BNN
+F 4 "None" H 7750 5800 50  0001 L BNN "Поле4"
+F 5 "Holtek" H 7750 5800 50  0001 L BNN "Поле5"
+F 6 "SOT-89 Holtek" H 7750 5800 50  0001 L BNN "Поле6"
+F 7 "HT7533-1" H 7750 5800 50  0001 L BNN "Поле7"
+F 8 "Unavailable" H 7750 5800 50  0001 L BNN "Поле8"
+	1    7750 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 6000 7750 6000
+Wire Wire Line
+	8800 5450 7750 5450
+Wire Wire Line
+	8150 5700 8300 5700
+Connection ~ 8300 5700
+Wire Wire Line
+	8300 5700 8450 5700
+Wire Wire Line
+	8300 6000 7750 6000
+Connection ~ 7750 6000
+Wire Wire Line
+	7350 5700 7350 6100
+Wire Wire Line
+	7350 6400 7750 6400
+Wire Wire Line
+	7750 6400 7750 6000
+NoConn ~ 8000 4300
+$Comp
+L lego-rescue:LED0603-SparkFun-LED-MySensors328p-rescue-usb_charger-rescue-esp8266_leds-rescue-usb_charger_dc-dc-rescue D13
+U 1 1 5B9DB94A
+P 9250 5000
+F 0 "D13" H 9088 4904 50  0000 R CNN
+F 1 "LED0603" H 9088 4995 50  0000 R CNN
+F 2 "SparkFun-LED:LED-0603" H 9280 5150 20  0001 C CNN
+F 3 "" H 9250 5000 50  0001 C CNN
+	1    9250 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L lego-rescue:LED0603-SparkFun-LED-MySensors328p-rescue-usb_charger-rescue-esp8266_leds-rescue-usb_charger_dc-dc-rescue D11
+U 1 1 5B9E287C
+P 8900 5000
+F 0 "D11" H 8738 4904 50  0000 R CNN
+F 1 "LED0603" H 8738 4995 50  0000 R CNN
+F 2 "SparkFun-LED:LED-0603" H 8930 5150 20  0001 C CNN
+F 3 "" H 8900 5000 50  0001 C CNN
+	1    8900 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8900 5100 9250 5100
+Wire Wire Line
+	8150 5350 9700 5350
+Wire Wire Line
+	8900 5100 8700 5100
+Wire Wire Line
+	8700 5100 8700 4700
+Connection ~ 8900 5100
+Connection ~ 8700 4700
+Wire Wire Line
+	8700 4700 7950 4700
+Text GLabel 10900 4150 2    50   Input ~ 0
+RTS
+Text GLabel 10900 4350 2    50   Input ~ 0
+DTR
+$Comp
+L mt3608:MT3608 U4
+U 1 1 5BDFED5B
+P 8550 3150
+F 0 "U4" H 8600 3737 60  0000 C CNN
+F 1 "MT3608" H 8600 3631 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8600 3631 60  0001 C CNN
+F 3 "" H 8550 3150 60  0000 C CNN
+	1    8550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego-rescue:L-imm_lib-usb_charger_dc-dc-rescue L1
+U 1 1 5BDFFB94
+P 8600 2450
+F 0 "L1" V 8766 2450 39  0000 C CNN
+F 1 "22uH" V 8691 2450 39  0000 C CNN
+F 2 "imm:CD54" V 8450 2300 50  0001 C CNN
+F 3 "" H 8550 2450 50  0001 C CNN
+	1    8600 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 2850 8150 3050
+Wire Wire Line
+	8450 2450 8150 2450
+Wire Wire Line
+	8150 2450 8150 2850
+Connection ~ 8150 2850
+$Comp
+L Diode:1N5822 D12
+U 1 1 5BE68B0D
+P 9250 2450
+F 0 "D12" H 9250 2234 50  0000 C CNN
+F 1 "1N5822" H 9250 2325 50  0000 C CNN
+F 2 "Diode_SMD:D_SMC" H 9250 2275 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 9250 2450 50  0001 C CNN
+	1    9250 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9050 2850 9050 2450
+Wire Wire Line
+	9050 2450 8750 2450
+Wire Wire Line
+	9100 2450 9050 2450
+Connection ~ 9050 2450
+$Comp
+L lego-rescue:R-imm_lib R6
+U 1 1 5BE93A37
+P 9200 3300
+F 0 "R6" H 9270 3346 50  0000 L CNN
+F 1 "2.2k" H 9270 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9100 3350 50  0001 C CNN
+F 3 "" H 9200 3400 50  0001 C CNN
+	1    9200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 3150 9050 3150
+Wire Wire Line
+	8150 3450 8150 3150
+Wire Wire Line
+	8150 3450 9200 3450
+$Comp
+L lego-rescue:R-imm_lib R5
+U 1 1 5BEBF342
+P 9200 3000
+F 0 "R5" H 9270 3046 50  0000 L CNN
+F 1 "16k" H 9270 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9100 3050 50  0001 C CNN
+F 3 "" H 9200 3100 50  0001 C CNN
+	1    9200 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 9200 3150
+Wire Wire Line
+	9200 2850 9400 2850
+Wire Wire Line
+	9400 2850 9400 2450
+Wire Wire Line
+	7750 5450 7750 2450
+Wire Wire Line
+	7750 2450 8150 2450
+Connection ~ 8150 2450
+$Comp
+L lego-rescue:C-imm_lib-esp8266_leds-rescue-usb_charger_dc-dc-rescue C4
+U 1 1 5BEED6D8
+P 7850 3100
+F 0 "C4" H 7965 3146 50  0000 L CNN
+F 1 "22uF" H 7965 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 7700 3050 50  0001 C CNN
+F 3 "" H 7850 3100 50  0001 C CNN
+	1    7850 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2850 7850 2850
+Wire Wire Line
+	7850 2850 7850 2950
+Wire Wire Line
+	7850 3250 7850 3450
+Wire Wire Line
+	7850 3450 8150 3450
+Connection ~ 8150 3450
+$Comp
+L lego-rescue:C-imm_lib-esp8266_leds-rescue-usb_charger_dc-dc-rescue C6
+U 1 1 5BF1B022
+P 9550 3050
+F 0 "C6" H 9665 3096 50  0000 L CNN
+F 1 "22uF" H 9665 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 9400 3000 50  0001 C CNN
+F 3 "" H 9550 3050 50  0001 C CNN
+	1    9550 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 2900 9550 2850
+Wire Wire Line
+	9550 2850 9400 2850
+Connection ~ 9400 2850
+Wire Wire Line
+	9550 3200 9550 3450
+Wire Wire Line
+	9550 3450 9200 3450
+Connection ~ 9200 3450
+$Comp
+L lego-rescue:C-imm_lib-esp8266_leds-rescue-usb_charger_dc-dc-rescue C7
+U 1 1 5BF4979A
+P 9950 3050
+F 0 "C7" H 10065 3096 50  0000 L CNN
+F 1 "10uF" H 10065 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 9800 3000 50  0001 C CNN
+F 3 "" H 9950 3050 50  0001 C CNN
+	1    9950 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 2850 9950 2850
+Wire Wire Line
+	9950 2850 9950 2900
+Connection ~ 9550 2850
+Wire Wire Line
+	9950 3450 9700 3450
+Connection ~ 9550 3450
+Wire Wire Line
+	9950 3200 9950 3450
+Wire Wire Line
+	10600 5350 10500 5350
+Connection ~ 10500 5350
+Wire Wire Line
+	7450 3550 10500 3550
+Connection ~ 10500 3550
+Wire Wire Line
+	10500 3550 10600 3550
+Connection ~ 10600 3550
+Wire Wire Line
+	10600 3550 10700 3550
+Wire Wire Line
+	10100 3950 7500 3950
+Wire Wire Line
+	10100 4050 7550 4050
+Wire Wire Line
+	7500 3950 7500 4450
+Wire Wire Line
+	7550 4050 7550 4550
+Wire Wire Line
+	9700 3450 9700 5350
+Connection ~ 9700 3450
+Wire Wire Line
+	9700 3450 9550 3450
+Connection ~ 9700 5350
+Wire Wire Line
+	9700 5350 10500 5350
+$Comp
+L power:+6V #PWR010
+U 1 1 5BDB1AC7
+P 9400 2450
+F 0 "#PWR010" H 9400 2300 50  0001 C CNN
+F 1 "+6V" H 9415 2623 50  0000 C CNN
+F 2 "" H 9400 2450 50  0001 C CNN
+F 3 "" H 9400 2450 50  0001 C CNN
+	1    9400 2450
+	0    1    1    0   
+$EndComp
+Connection ~ 9400 2450
+Text GLabel 1200 1250 2    50   Input ~ 0
+3,3V
+$Comp
+L power:+6V #PWR0101
+U 1 1 5BDCB83C
+P 7350 5700
+F 0 "#PWR0101" H 7350 5550 50  0001 C CNN
+F 1 "+6V" H 7365 5873 50  0000 C CNN
+F 2 "" H 7350 5700 50  0001 C CNN
+F 3 "" H 7350 5700 50  0001 C CNN
+	1    7350 5700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7350 5700
+Text GLabel -1100 1950 0    50   Input ~ 0
+TXD
+Text GLabel -1100 1850 0    50   Input ~ 0
+RXD
+Text GLabel 700  1850 2    50   Input ~ 0
+RTS
+Text GLabel -1100 2250 0    50   Input ~ 0
+DTR
+Wire Wire Line
+	-1800 2350 -1800 1950
+Wire Wire Line
+	-1800 1950 -1950 1950
+Wire Wire Line
+	-1800 2350 -1100 2350
+Wire Wire Line
+	-1100 2250 -1750 2250
+Wire Wire Line
+	-1750 2250 -1750 1850
+Wire Wire Line
+	-1750 1850 -1950 1850
+$EndSCHEMATC
